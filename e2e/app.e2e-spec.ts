@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('ngx-unexd App', () => {
+describe('unexd-ngx App', () => {
   let page: AppPage;
 
   beforeEach(() => {

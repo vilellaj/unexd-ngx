@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DateInputComponent } from './modules/date-input/date-input.component';
+import { NgxMaskModule } from 'ngx-mask';
+import { DateInputModule } from './modules/date-input/date-input.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent        
   ],
-  imports: [
-    BrowserModule
+  imports: [    
+    BrowserModule,
+    DateInputModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
